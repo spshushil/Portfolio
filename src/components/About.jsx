@@ -49,11 +49,11 @@ export const About = () => (
         viewport={{ once: true }}
       >
         {[
-          { icon: "💻", label: "Java, Python Basics" },
-          { icon: "🎨", label: "React.js, Tailwind CSS, JSX" },
+          { icon: "💻", label: " Python Basics" },
+          { icon: "🌐", label: "CCNA: BGP, RIP, OSPF, NAT" },
           { icon: "☁️", label: "Linux, AWS, Azure (learning)" },
           { icon: "⚙️", label: "Git, GitHub, GitHub Actions" },
-          { icon: "🌐", label: "CCNA: BGP, RIP, OSPF, NAT" },
+          { icon: "🎨", label: "React.js, Tailwind CSS, JSX" },
           { icon: "🤖", label: "SVM, CNN (AI & ML Projects)" },
         ].map((skill, index) => (
           <motion.li
