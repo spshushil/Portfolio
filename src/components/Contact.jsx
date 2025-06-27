@@ -20,7 +20,7 @@ export const Contact = () => (
         <div className="space-y-4 w-full md:w-1/2">
           <p className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
             <FaEnvelope className="text-blue-600" />
-            <a href="https://spshushil004@gmail.com" className="text-blue-600 hover:underline hover:drop-shadow">
+            <a href="mailto:spshushil004@gmail.com" className="text-blue-600 hover:underline hover:drop-shadow">
               spshushil004@gmail.com
             </a>
           </p>

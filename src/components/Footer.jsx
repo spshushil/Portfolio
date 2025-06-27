@@ -19,7 +19,7 @@ export const Footer = () => (
       {/* Social icons */}
       <div className="flex gap-4 text-xl">
         <a
-          href="https://spshushil004@gmail.com"
+          href="mailto:spshushil004@gmail.com"
           className="hover:text-blue-600 transition-colors"
           aria-label="Email"
         >
