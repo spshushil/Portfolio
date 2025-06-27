@@ -37,7 +37,7 @@ I'm **SP SHUSHIL**, a passionate Computer Science Engineer based in **Chennai, I
 
 ## 🌐 Live Preview
 
-> (https://sp-shushil-protfolio.vercel.app/)
+> (https://sp-shushil-portfolio.vercel.app/)
 
 ---
 
