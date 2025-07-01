@@ -27,10 +27,10 @@ export const Projects = () => (
       >
         {[
           {
-            title: "Face Recognition using CNN",
-            description: "Used Convolutional Neural Networks to recognize and classify facial features. Demonstrates deep learning application skills.",
+            title: "CCNA Network Topologies",
+            description: "Designed and configured networks using RIP, OSPF, NAT, and BGP in Cisco Packet Tracer. Strong foundation in routing protocols.",
             link: "https://github.com/spshushil?tab=repositories",
-            image: "https://wallpaperaccess.com/full/13369788.png"
+            image: "https://www.cloudcomputingtraininginchennai.in/wp-content/uploads/2024/03/CCNA.jpg"
           },
           {
             title: "Cyberbullying Detection",
@@ -39,17 +39,18 @@ export const Projects = () => (
             image: "https://eduvationnet.co.za/wp-content/uploads/2017/06/cyber_bullying_wordcloud.jpg"
           },
           {
-            title: "CCNA Network Topologies",
-            description: "Designed and configured networks using RIP, OSPF, NAT, and BGP in Cisco Packet Tracer. Strong foundation in routing protocols.",
-            link: "https://github.com/spshushil?tab=repositories",
-            image: "https://www.cloudcomputingtraininginchennai.in/wp-content/uploads/2024/03/CCNA.jpg"
-          },
-          {
             title: "Doctor Booking Appointment App",
             description: "A full-stack application for scheduling doctor appointments. Built using MERN stack with responsive UI and authentication.",
             link: "https://github.com/sabarirajpazhani/Doctor_Appointment.git",
             image: "https://static.vecteezy.com/system/resources/previews/016/699/936/non_2x/book-doctor-appointment-online-flat-banner-template-making-visit-poster-leaflet-printable-color-designs-editable-flyer-page-with-text-space-vector.jpg"
-          }
+          },
+          {
+            title: "Face Recognition using CNN",
+            description: "Used Convolutional Neural Networks to recognize and classify facial features. Demonstrates deep learning application skills.",
+            link: "https://github.com/spshushil?tab=repositories",
+            image: "https://wallpaperaccess.com/full/13369788.png"
+          },
+          
         ].map((project, index) => (
           <motion.div
             key={index}
