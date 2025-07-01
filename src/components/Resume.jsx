@@ -20,7 +20,7 @@ export const Resume = () => (
       viewport={{ once: true }}
       transition={{ delay: 0.2, duration: 0.5 }}
     >
-      Here’s a downloadable PDF of my experience — tailored for Software Development, DevOps, and Networking roles.
+      Here’s a view of my experience — tailored for Software Development, DevOps, and Networking roles.
       <br />
       
     </motion.p>
@@ -69,7 +69,7 @@ export const Resume = () => (
 
     {/* Resume Button */}
     <motion.a
-      href="/resume.pdf"
+      href="https://drive.google.com/file/d/1cIqWLA2T4kL5lIKv2glTqXo0BpS9fYeO/view?usp=sharing"
       target="_blank"
       download
       className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-2 rounded-full shadow-lg hover:bg-blue-700 hover:scale-105 transition-transform duration-300"
@@ -78,7 +78,7 @@ export const Resume = () => (
       viewport={{ once: true }}
       transition={{ delay: 0.6, duration: 0.4 }}
     >
-      <FaDownload /> Download Resume (PDF)
+      <FaDownload /> Resume 
     </motion.a>
   </section>
 );
