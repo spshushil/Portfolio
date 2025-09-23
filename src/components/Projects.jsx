@@ -36,8 +36,7 @@ export const Projects = () => (
             title: "Cyberbullying Detection",
             description: "Built with Java and SVM, this model identifies harmful social media content. Real-world problem-solving with ML.",
             link: "https://github.com/spshushil?tab=repositories",
-            image: "https://eduvationnet.co.za/wp-content/uploads/2017/06/cyber_bullying_wordcloud.jpg"
-          },
+            image: "https://image.slidesharecdn.com/cyberbullying-romania-220527164035-a34cd99a/85/Cyberbullying-Romania-pdf-1-320.jpg"},
           {
             title: "Doctor Booking Appointment App",
             description: "A full-stack application for scheduling doctor appointments. Built using MERN stack with responsive UI and authentication.",
