@@ -20,7 +20,7 @@ export const Resume = () => (
       viewport={{ once: true }}
       transition={{ delay: 0.2, duration: 0.5 }}
     >
-      Here’s a view of my experience — tailored for Software Development, DevOps, and Networking roles.
+      Here’s a view of my experience — tailored for Software Development, AWS, Devops and Networking roles.
       <br />
       
     </motion.p>
@@ -33,11 +33,12 @@ export const Resume = () => (
       viewport={{ once: true }}
     >
       {[
-        "💻 Linux / AWS Enthusiast",
-        "☁️ DevOps (CI/CD, Docker, GitHub Actions)",
+        "💻 Linux / DevOps Enthusiast",
+        "☁️ AWS (EC2, VPC, S3, Load balancer, Lambda)",
         "🌐 CCNA: BGP | OSPF | NAT",
         "🤖 Python + SVM (ML)",
         "🏆 Technical Secretary - CEBROID'24",
+        "🏆 Non-Technical Secretary - Flare Fest'23 & '24",
       ].map((tag, index) => (
         <motion.span
           key={index}
@@ -62,6 +63,7 @@ export const Resume = () => (
       <h3 className="text-xl font-semibold text-center mb-2">⚙️ Highlights</h3>
       <ul className="list-disc pl-6 space-y-2">
         <li>Built <b>Cyberbullying Detection</b> system using Java & SVM, modernized with React & Flask.</li>
+        <li>Hands-on experience in <b>AWS services including EC2, VPC, Auto Scaling, Load Balancer, IAM, S3, and Lambda</b> with skills in deploying scalable web servers, automating resource creation, managing secure networks, and optimizing cloud costs through monitoring and configuration.</li>
         <li>Designed and simulated <b>CCNA Topologies</b> using Packet Tracer with BGP, OSPF, and RIP protocols.</li>
         <li>Leadership experience as <b>Technical Secretary</b> for multiple college tech fests and events.</li>
       </ul>
@@ -69,7 +71,7 @@ export const Resume = () => (
 
     {/* Resume Button */}
     <motion.a
-      href="https://drive.google.com/file/d/1cIqWLA2T4kL5lIKv2glTqXo0BpS9fYeO/view?usp=sharing"
+      href="https://drive.google.com/file/d/117CjTlG5Tzv3to9dt4GpwQofv1EztASJ/view?usp=sharing"
       target="_blank"
       download
       className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-2 rounded-full shadow-lg hover:bg-blue-700 hover:scale-105 transition-transform duration-300"

@@ -24,7 +24,7 @@ export const Hero = () => (
           2000,
           "CCNA Architect",
           2000,
-          "DevOps Enthusiast",
+          "Cloud Enthusiast",
           2000,
         ]}
         wrapper="p"

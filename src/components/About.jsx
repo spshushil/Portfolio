@@ -34,8 +34,11 @@ export const About = () => (
         <li>B.E. Computer Science Engineering – Adhi College of Engineering and Technology (2021–2025)</li>
         <li>B.A. Hindi Lit – Dhakshin Bharath Hindi Prachar Sabha (2018–2021)</li>
         <li>CCNA Networking Projects – Topologies, RIP, OSPF, NAT, BGP</li>
+        <li>SOAR-AI Prompt Engineering - Skill India</li>
+        <li>Data Migrations to AWS - Aws skil bulider</li>
         <li>MongoDB Basics – Course Completion (Naan Mudhalvan)</li>
         <li>Artificial Intelligence Bootcamp – NoviTech</li>
+        
         
       </ul>
     </div>
@@ -51,9 +54,9 @@ export const About = () => (
         {[
           { icon: "💻", label: " Python Basics" },
           { icon: "🌐", label: "CCNA: BGP, RIP, OSPF, NAT" },
-          { icon: "☁️", label: "Linux, AWS, Azure (learning)" },
+          { icon: "☁️", label: "Linux, AWS, Devops (learning)" },
           { icon: "⚙️", label: "Git, GitHub, GitHub Actions" },
-          { icon: "🎨", label: "React.js, Tailwind CSS, JSX" },
+          { icon: "🎨", label: "React.js, Tailwind CSS" },
           { icon: "🤖", label: "SVM, CNN (AI & ML Projects)" },
         ].map((skill, index) => (
           <motion.li
@@ -70,7 +73,7 @@ export const About = () => (
     <div className="mt-10 text-gray-700 dark:text-gray-300">
       <h3 className="text-2xl font-semibold mb-4">🧠 Interests</h3>
       <p>
-        I’m currently diving deeper into <b>Cloud Computing</b> and <b>DevOps automation</b>.
+        I’m currently diving deeper into <b>Cloud Computing</b> and <b>AWS automation</b>.
         I also love participating in hackathons, college fests, and <b>leading tech teams as a coordinator and mentor.</b>
         My ultimate goal is to build impactful solutions that blend AI, automation, and clean UX.
       </p>
