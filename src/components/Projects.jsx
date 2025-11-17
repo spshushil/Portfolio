@@ -33,10 +33,10 @@ export const Projects = () => (
             image: "https://www.cloudcomputingtraininginchennai.in/wp-content/uploads/2024/03/CCNA.jpg"
           },
           {
-            title: "Cyberbullying Detection",
-            description: "Built with Java and SVM, this model identifies harmful social media content. Real-world problem-solving with ML.",
+            title: "Trust app",
+            description: "Bulid with javaScript, HTML, and CSS. Aimed to assign program and display to all the trust members.",
             link: "https://github.com/spshushil?tab=repositories",
-            image: "https://image.slidesharecdn.com/cyberbullying-romania-220527164035-a34cd99a/85/Cyberbullying-Romania-pdf-1-320.jpg"},
+            image: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/33/67/6033672e-ade7-8008-c690-930aae72a73f/AppIconPROD-0-0-1x_U007ephone-0-85-220.png/1200x630wa.png"},
           {
             title: "Doctor Booking Appointment App",
             description: "A full-stack application for scheduling doctor appointments. Built using MERN stack with responsive UI and authentication.",
