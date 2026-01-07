@@ -41,7 +41,7 @@ export const Projects = () => (
             title: "Ansible Apache Web Server Automation on AWS EC2",
             description: "Automated Apache web server setup on AWS EC2 using Ansible. Showcases skills in infrastructure as code and cloud deployment.",
             link: "https://github.com/spshushil?tab=repositories",
-            image: "https://chatgpt.com/s/m_695e4dd370fc8191b1a50 d2e3aa3e7f2"
+            image: "https://miro.medium.com/v2/resize:fit:1200/1*LaozQKQr0RP0-r9A4brC3w.png"
           },
           {
             title: "Face Recognition using CNN",
