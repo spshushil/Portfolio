@@ -71,7 +71,7 @@ export const Resume = () => (
 
     {/* Resume Button */}
     <motion.a
-      href="https://drive.google.com/file/d/1TsYObxJp_MKUWj8CJ-ksu5RZiQOiawuI/view?usp=sharing"
+      href="https://drive.google.com/file/d/13BZ9HBxsflo0PrO_t-OInCoZwwnwB9zU/view?usp=sharing"
       target="_blank"
       download
       className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-2 rounded-full shadow-lg hover:bg-blue-700 hover:scale-105 transition-transform duration-300"
