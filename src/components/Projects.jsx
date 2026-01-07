@@ -38,10 +38,10 @@ export const Projects = () => (
             link: "https://github.com/spshushil?tab=repositories",
             image: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/33/67/6033672e-ade7-8008-c690-930aae72a73f/AppIconPROD-0-0-1x_U007ephone-0-85-220.png/1200x630wa.png"},
           {
-            title: "Doctor Booking Appointment App",
-            description: "A full-stack application for scheduling doctor appointments. Built using MERN stack with responsive UI and authentication.",
-            link: "https://github.com/sabarirajpazhani/Doctor_Appointment.git",
-            image: "https://static.vecteezy.com/system/resources/previews/016/699/936/non_2x/book-doctor-appointment-online-flat-banner-template-making-visit-poster-leaflet-printable-color-designs-editable-flyer-page-with-text-space-vector.jpg"
+            title: "Ansible Apache Web Server Automation on AWS EC2",
+            description: "Automated Apache web server setup on AWS EC2 using Ansible. Showcases skills in infrastructure as code and cloud deployment.",
+            link: "https://github.com/spshushil?tab=repositories",
+            image: "https://chatgpt.com/s/m_695e4dd370fc8191b1a50 d2e3aa3e7f2"
           },
           {
             title: "Face Recognition using CNN",
