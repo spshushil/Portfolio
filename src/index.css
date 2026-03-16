@@ -84,39 +84,51 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: hsl(var(--border));
   }
   body {
-    @apply bg-background text-foreground;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
     font-family: 'Inter', sans-serif;
   }
   html {
     scroll-behavior: smooth;
   }
 }
-
 @layer components {
   .glass {
-    @apply bg-card/60 backdrop-blur-xl border border-border/50;
+    background-color: hsl(var(--card) / 0.6);
+    backdrop-filter: blur(24px);
+    border: 1px solid hsl(var(--border) / 0.5);
   }
   .glass-strong {
-    @apply bg-card/80 backdrop-blur-2xl border border-border/60;
+    background-color: hsl(var(--card) / 0.8);
+    backdrop-filter: blur(40px);
+    border: 1px solid hsl(var(--border) / 0.6);
   }
   .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, hsl(var(--primary)), hsl(var(--accent)));
   }
   .gradient-bg {
-    @apply bg-gradient-to-r from-primary to-accent;
+    background-image: linear-gradient(to right, hsl(var(--primary)), hsl(var(--accent)));
   }
   .gradient-border {
-    @apply border border-transparent bg-clip-padding;
+    border: 1px solid transparent;
+    background-clip: padding-box;
     background-image: linear-gradient(hsl(var(--card)), hsl(var(--card))),
                         linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
     background-origin: border-box;
     background-clip: padding-box, border-box;
   }
   .section-padding {
-    @apply py-20 md:py-28 px-4 md:px-8;
+    padding: 5rem 1rem;
+  }
+  @media (min-width: 768px) {
+    .section-padding {
+      padding: 7rem 2rem;
+    }
   }
   .glow-sm {
     box-shadow: 0 0 20px -5px hsl(var(--primary) / 0.3);
@@ -125,6 +137,7 @@
     box-shadow: 0 0 40px -10px hsl(var(--primary) / 0.3);
   }
 }
+
 
 @layer utilities {
   .text-balance {
