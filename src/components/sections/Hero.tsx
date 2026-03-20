@@ -125,11 +125,11 @@ export const Hero = () => {
             View Projects <ArrowDown size={16} />
           </a>
           <a
-            href="/Profile_Shushil.pdf"
+            href="https://drive.google.com/file/d/1kF56a0qdSJUcAMffOa-51kxKrmvHGorj/view?usp=sharing"
             download
             className="glass px-6 py-3 rounded-lg font-medium text-sm flex items-center gap-2 hover:bg-surface-hover transition-colors"
           >
-            <FileDown size={16} /> Download Resume
+            <FileDown size={16} /> View Resume
           </a>
           <a
             href="#contact"
