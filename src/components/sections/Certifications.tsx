@@ -10,8 +10,8 @@ const certs = [
 
 const achievements = [
   "Certified Yoga Trainer (Assistant professor) – WCSC Aliyar",
-  "Overall Student Secretary in college fest",
-  "Organizer/Student Secretary – CEBROID'24 Technical Symposium",
+  "Overall Student Secretary in college fest – Flare Fest",
+  "Organizer/Student Secretary – CEBROID'24 National level Technical Symposium",
   "SIH 2024 internal participant – Student Secretary for SIH 2024 in college",
 ];
 

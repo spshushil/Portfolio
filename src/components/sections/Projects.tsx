@@ -16,11 +16,11 @@ const projects = [
     tech: ["Cisco Packet Tracer", "Networking"],
   },
   {
-    icon: Globe,
-    title: "Trust Website (Full Stack)",
-    desc: "Built and deployed a trust website using Node.js and MongoDB with REST APIs. Managed backend logic and database operations, and tested APIs using Postman.",
-    tech: ["Node.js", "MongoDB", "REST API", "Postman", "Vercel"],
-  },
+  icon: Globe,
+  title: "GMVKM Trust Web Application",
+  desc: "Developed a full-stack web application for managing trust activities and member data. Implemented features like member management (add, edit, delete), responsive UI, and efficient backend integration for seamless data handling.",
+  tech: ["React.js", "Node.js", "MongoDB", "REST API", "Admin Panel", "Vercel"],
+}
 ];
 
 export const Projects = () => (
