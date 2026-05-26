@@ -50,7 +50,7 @@ export const Contact = () => (
               <Linkedin size={20} />
             </a>
             <a
-              href="https://drive.google.com/file/d/1kF56a0qdSJUcAMffOa-51kxKrmvHGorj/view?usp=sharing"
+              href="https://drive.google.com/file/d/11KDJIO_dX6ziW-oIy-vIuPh1ZFST7okd/view?usp=sharing"
               download
               className="p-3 glass rounded-lg hover:bg-surface-hover hover:text-primary transition-all"
               aria-label="Download Resume"

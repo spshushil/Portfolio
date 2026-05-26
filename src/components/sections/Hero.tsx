@@ -143,7 +143,7 @@ export const Hero = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1kF56a0qdSJUcAMffOa-51kxKrmvHGorj/view?usp=sharing"
+            href="https://drive.google.com/file/d/11KDJIO_dX6ziW-oIy-vIuPh1ZFST7okd/view?usp=sharing"
             className="glass px-6 py-3 rounded-lg font-medium text-sm flex items-center gap-2 w-full sm:w-auto justify-center"
           >
             <FileDown size={16} /> View Resume
